@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: luis.ordonez
+  data:
+    mongodb:
+      database: 27_luis_ordonez
+      uri: mongodb+srv://luisordonezlopez_db_user:admin12345@27-luis-ordonez.dghi9wp.mongodb.net/?appName=27-luis-ordonez
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
